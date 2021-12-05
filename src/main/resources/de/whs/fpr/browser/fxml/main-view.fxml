@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox id="mainView" xmlns:fx="http://javafx.com/fxml" alignment="CENTER"
+      fx:controller="de.whs.fpr.browser.gui.controllers.MainViewController">
+
+    <FlowPane id="inputControls">
+        <TextField fx:id="packageNameInput" promptText="Package name" />
+        <TextField fx:id="classNameInput" promptText="Class name" />
+        <Button fx:id="submitButton" text="Search" onAction="#onSubmitButtonClick" />
+    </FlowPane>
+
+    <ScrollPane>
+        <Label fx:id="outputLabel" />
+    </ScrollPane>
+
+</VBox>

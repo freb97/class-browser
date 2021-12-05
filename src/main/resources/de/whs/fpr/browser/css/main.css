@@ -1,0 +1,14 @@
+#mainView {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-font-size: 14px;
+}
+
+#inputControls {
+    -fx-padding: 0 0 15px 0;
+    -fx-hgap: 10px;
+}
+
+#outputLabel {
+    -fx-padding: 10px;
+}
