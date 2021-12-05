@@ -1,17 +1,17 @@
-package de.whs.fpr.browser.stats.data;
+package de.whs.fpr.browser.data.types;
 
 import java.lang.reflect.AnnotatedType;
 
 /**
- * Class data.
+ * Class types.
  *
- * Represents a classes' data.
+ * Represents a classes' types.
  *
  * @author Frederik Bußmann
  */
 public class ClassData {
     /**
-     * String constant for indentation of class data.
+     * String constant for indentation of class types.
      */
     public static final String INDENTATION = "        ";
 
@@ -43,7 +43,7 @@ public class ClassData {
     /**
      * Class constructor.
      *
-     * @param classData The class to obtain data from.
+     * @param classData The class to obtain types from.
      */
     public ClassData(Class<?> classData) {
         this.className = classData.getName();
@@ -104,9 +104,9 @@ public class ClassData {
     }
 
     /**
-     * Converts the class to a string representing its data.
+     * Converts the class to a string representing its types.
      *
-     * @return The class data as a string.
+     * @return The class types as a string.
      */
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
@@ -136,7 +136,7 @@ public class ClassData {
     }
 
     /**
-     * Converts a given array of annotated types to a string representing its data.
+     * Converts a given array of annotated types to a string representing its types.
      *
      * @param parameters The annotated types.
      *

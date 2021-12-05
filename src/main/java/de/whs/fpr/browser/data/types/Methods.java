@@ -1,4 +1,4 @@
-package de.whs.fpr.browser.stats.data;
+package de.whs.fpr.browser.data.types;
 
 import java.lang.reflect.AnnotatedType;
 import java.lang.reflect.Method;
@@ -27,7 +27,7 @@ public class Methods {
     }
 
     /**
-     * Converts the data of methods of a class to a string.
+     * Converts the types of methods of a class to a string.
      *
      * @return The methods of the class as a string.
      */

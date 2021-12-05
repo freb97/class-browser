@@ -1,4 +1,4 @@
-package de.whs.fpr.browser.stats.data;
+package de.whs.fpr.browser.data.types;
 
 import java.lang.reflect.AnnotatedType;
 import java.lang.reflect.Constructor;
@@ -27,7 +27,7 @@ public class Constructors {
     }
 
     /**
-     * Converts the data of constructors of a class to a string.
+     * Converts the types of constructors of a class to a string.
      *
      * @return The constructors of the class as a string.
      */

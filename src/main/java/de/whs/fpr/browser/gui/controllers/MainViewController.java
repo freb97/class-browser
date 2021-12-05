@@ -1,6 +1,6 @@
 package de.whs.fpr.browser.gui.controllers;
 
-import de.whs.fpr.browser.stats.ClassBrowser;
+import de.whs.fpr.browser.data.ClassBrowser;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

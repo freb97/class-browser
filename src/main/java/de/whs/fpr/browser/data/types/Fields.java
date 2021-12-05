@@ -1,4 +1,4 @@
-package de.whs.fpr.browser.stats.data;
+package de.whs.fpr.browser.data.types;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -26,7 +26,7 @@ public class Fields {
     }
 
     /**
-     * Converts the data of fields of a class to a string.
+     * Converts the types of fields of a class to a string.
      *
      * @return The fields of the class as a string.
      */

@@ -1,17 +1,17 @@
-package de.whs.fpr.browser.stats;
+package de.whs.fpr.browser.data;
 
-import de.whs.fpr.browser.stats.data.ClassData;
+import de.whs.fpr.browser.data.types.ClassData;
 
 /**
  * Class browser.
  *
- * A browser that takes a class name as an input and displays the classes' data.
+ * A browser that takes a class name as an input and displays the classes' types.
  *
  * @author Frederik Bußmann
  */
 public class ClassBrowser {
     /**
-     * The data of the current class.
+     * The types of the current class.
      */
     private ClassData classData;
 
@@ -33,9 +33,9 @@ public class ClassBrowser {
     }
 
     /**
-     * Gets the found classes' data as a string.
+     * Gets the found classes' types as a string.
      *
-     * @return The data of the class as a string.
+     * @return The types of the class as a string.
      */
     public String classDataToString() {
         if (classData != null) {
