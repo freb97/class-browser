@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Main class.
+ * Main class. ¯\_(ツ)_/¯
  *
  * Class browser application entrypoint.
  *
